@@ -74,5 +74,6 @@ from employees
 group by last_name
 order by last_name_count desc;
 
-
-
+select * from employees
+where emp_no=499942;
+--Ha!  April Foolsday!
